@@ -35,7 +35,7 @@
         "url": "https://github.com/RintaroYamaoka/upstream-process.git"
       },
       "description": "AI駆動による古典的上流工程の再現。実装より上流 — 要件定義・基本設計(外部設計)・現行仕様の復元 — を AI との壁打ちで行う。project-bootstrap が実装以降を強制装置(hook)で守るのに対し、こちらは上流の判断を手順と成果物カタログで支える。skills: requirements-definition / basic-design / spec-recovery。",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "homepage": "https://github.com/RintaroYamaoka/upstream-process",
       "repository": "https://github.com/RintaroYamaoka/upstream-process",
       "license": "MIT",
