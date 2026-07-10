@@ -1,0 +1,51 @@
+{
+  "name": "rintaro-yamaoka",
+  "owner": {
+    "name": "Rintaro Yamaoka"
+  },
+  "metadata": {
+    "description": "Rintaro Yamaoka の Claude Code プラグイン marketplace。AI 駆動開発のためのプラグインを配布する。配布インデックス専用 repo(各プラグインの実体はそれぞれの repo)。",
+    "version": "0.6.0"
+  },
+  "plugins": [
+    {
+      "name": "project-bootstrap",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RintaroYamaoka/project-bootstrap.git"
+      },
+      "description": "上位1％の AI 駆動開発を個人の規律でなく構造として default 化する Claude Code プラグイン。実装以降(詳細設計〜統合)を hook で強制する: TDD 先行 / 依存方向 / 並列 lane / sprint 発火 / verification gate / protected push ほか 20 hook。skills: project-bootstrap / plan / handoff / incident / sprint-plan / integrate / verification。",
+      "version": "0.30.0",
+      "homepage": "https://github.com/RintaroYamaoka/project-bootstrap",
+      "repository": "https://github.com/RintaroYamaoka/project-bootstrap",
+      "license": "MIT",
+      "keywords": [
+        "ai-driven-development",
+        "tdd",
+        "hooks",
+        "verification",
+        "test-driven"
+      ],
+      "category": "development-workflow"
+    },
+    {
+      "name": "upstream-process",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RintaroYamaoka/upstream-process.git"
+      },
+      "description": "AI駆動による古典的上流工程の再現。実装より上流 — 要件定義・基本設計(外部設計)・現行仕様の復元 — を AI との壁打ちで行う。project-bootstrap が実装以降を強制装置(hook)で守るのに対し、こちらは上流の判断を手順と成果物カタログで支える。skills: requirements-definition / basic-design / spec-recovery。",
+      "version": "0.1.0",
+      "homepage": "https://github.com/RintaroYamaoka/upstream-process",
+      "repository": "https://github.com/RintaroYamaoka/upstream-process",
+      "license": "MIT",
+      "keywords": [
+        "requirements-definition",
+        "basic-design",
+        "upstream-process",
+        "ai-driven-development"
+      ],
+      "category": "development-workflow"
+    }
+  ]
+}
