@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Rintaro Yamaoka の Claude Code プラグイン marketplace。AI 駆動開発のためのプラグインを配布する。配布インデックス専用 repo(各プラグインの実体はそれぞれの repo)。",
-    "version": "0.6.11"
+    "version": "0.6.12"
   },
   "plugins": [
     {
@@ -34,8 +34,8 @@
         "source": "url",
         "url": "https://github.com/RintaroYamaoka/upstream-process.git"
       },
-      "description": "AI駆動による古典的上流工程の再現。実装より上流 — 要件定義・基本設計(外部設計)・現行仕様の復元・反復設計 — を AI との壁打ちで行う。project-bootstrap が実装以降を強制装置(hook)で守るのに対し、こちらは上流の判断を手順と成果物カタログで支える。要件が動く現場は iteration-design(幹＋ベット)で回す: 確度(🔴🟡🟢)に儀式を比例させ、人間とAIの認識のねじれを出荷の継ぎ目で連続的に閉じる。skills: requirements-definition / basic-design / spec-recovery / iteration-design。",
-      "version": "0.6.0",
+      "description": "AI と人間の認識のねじれを作らない上流工程。実装より上流の判断(何を決めるべきか / 決めたことと AI が作ったものを一致させ続けること)を AI との壁打ちで行う。核は一つの不変条件(未決を無音で埋めない)で、それを2モードで実装する: 古典モード(立ち上げ・移行 = 要件定義・基本設計・現行仕様の復元。古典の成果物カタログを空白の検出器に)と、定常モード(要件が動く現場 = iteration-design/幹＋ベット。Kanban 連続フロー×Shape Up のベット×XP の規律。もはや古典の再現ではなく不変条件の高速 churn 環境への拡張)。実装以降の強制は project-bootstrap の管轄。skills: requirements-definition / basic-design / spec-recovery / iteration-design。",
+      "version": "0.6.1",
       "homepage": "https://github.com/RintaroYamaoka/upstream-process",
       "repository": "https://github.com/RintaroYamaoka/upstream-process",
       "license": "MIT",
