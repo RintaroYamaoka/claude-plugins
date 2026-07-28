@@ -5,15 +5,16 @@ Claude Code プラグインの**配布インデックス専用 repo**。各プ�
 
 | plugin | 管轄 | repo |
 |---|---|---|
+| kanban-flow | 上流(計画・設計・カード起票・レビュー・監査)をカンバンと GitHub Projects で回す | https://github.com/RintaroYamaoka/kanban-flow |
 | project-bootstrap | 実装以降(詳細設計〜統合)を hook で強制 | https://github.com/RintaroYamaoka/project-bootstrap |
-| upstream-process | 上流(要件定義・基本設計・現行仕様復元)を手順+カタログで支援 | https://github.com/RintaroYamaoka/upstream-process |
+| upstream-process | 上流を手順+カタログで支援(kanban-flow の移行元・もう使わない) | https://github.com/RintaroYamaoka/upstream-process |
 
 ## 利用
 
 ```
 /plugin marketplace add RintaroYamaoka/claude-plugins
+/plugin install kanban-flow@rintaro-yamaoka
 /plugin install project-bootstrap@rintaro-yamaoka
-/plugin install upstream-process@rintaro-yamaoka
 ```
 
 ## 経緯
