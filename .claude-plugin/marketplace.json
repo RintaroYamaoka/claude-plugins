@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Rintaro Yamaoka の Claude Code プラグイン marketplace。AI 駆動開発のためのプラグインを配布する。配布インデックス専用 repo(各プラグインの実体はそれぞれの repo)。",
-    "version": "0.8.0"
+    "version": "0.8.1"
   },
   "plugins": [
     {
@@ -34,8 +34,8 @@
         "source": "url",
         "url": "https://github.com/RintaroYamaoka/project-bootstrap.git"
       },
-      "description": "上位1％の AI 駆動開発を個人の規律でなく構造として default 化する Claude Code プラグイン。発注 (上流) から実装・統合を経て検収まで一貫して担う。上流 = AI が人間不在で走り切るための事前条件を作業指示書 12 節 (目的/作業範囲/変更禁止範囲/守るべき既存条件/優先順位/例外時の判断方法/継ぎ目/完了条件/検証方法/停止条件/決めてよい・いけない/事前レビュー) として確定させ、発注 commit で完全性を fail-closed 検査。実装前に独立コンテキストの AI を仮想下流リーダーとして使い仕様を壊させる。上流の品質はエスカレーション/再試行/差し戻し/トークンという下流テレメトリで測る。下流 = TDD 先行 / 依存方向 / 並列 lane / sprint 発火 / verification gate / 引退した名前の混入 / protected push ほか 24 hook。旧 upstream-process と kanban-flow の後継 (ADR 0022)。skills: project-bootstrap / charter / order / pre-review / accept / plan / handoff / incident / sprint-plan / integrate / verification。",
-      "version": "0.33.0",
+      "description": "上位1％の AI 駆動開発を個人の規律でなく構造として default 化する Claude Code プラグイン。発注 (上流) から実装・統合を経て検収まで一貫して担う。上流 = AI が人間不在で走り切るための事前条件を作業指示書 12 節 (目的/作業範囲/変更禁止範囲/守るべき既存条件/優先順位/例外時の判断方法/継ぎ目/完了条件/検証方法/停止条件/決めてよい・いけない/事前レビュー) として確定させ、発注 commit で完全性を fail-closed 検査。実装前に独立コンテキストの AI を仮想下流リーダーとして使い仕様を壊させる。上流の品質はエスカレーション/再試行/差し戻し/トークンという下流テレメトリで測る。下流 = TDD 先行 / 依存方向 / 並列 lane / sprint 発火 / verification gate / 引退した名前の混入 / protected push ほか 22 gate — PreToolUse は単一プロセス dispatcher で走り Windows (Git Bash) でも高速 (ADR 0026)。旧 upstream-process と kanban-flow の後継 (ADR 0022)。skills: project-bootstrap / charter / order / pre-review / accept / plan / handoff / incident / sprint-plan / integrate / verification。",
+      "version": "0.36.0",
       "homepage": "https://github.com/RintaroYamaoka/project-bootstrap",
       "repository": "https://github.com/RintaroYamaoka/project-bootstrap",
       "license": "MIT",
