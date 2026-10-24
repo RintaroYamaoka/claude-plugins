@@ -8,12 +8,14 @@ Claude Code プラグインの**配布インデックス専用 repo**。各プ�
 | plugin | 何をする | repo |
 |---|---|---|
 | **tdd-guards** | コードを書く作業の小さな規律。skill 1 本(`tdd`:書く前に読む / Red → Green → Refactor / commit・push の前の手順)+ PreToolUse hook 3 本(commit 前の test+lint / 古い checkout からの push の拒否 / 強制 push・`reset --hard`・protected 直 push の拒否)。並走・lane・作業指示書の運用は持たない | https://github.com/RintaroYamaoka/tdd-guards |
+| **roentgen** | repo のコードを知識グラフ(関数・型・表・入口・呼び出し・読み書き)にして、リファレンス風の HTML 19 ページ・意味の diff・query・MCP・notes を出す。北極星は「コードを読まずに読んだのと近い状態」。Rust の単一バイナリ(launcher が Releases から取得、無ければ cargo でビルド) | https://github.com/RintaroYamaoka/roentgen |
 
 ## 利用
 
 ```
 /plugin marketplace add RintaroYamaoka/claude-plugins
 /plugin install tdd-guards@rintaro-yamaoka
+/plugin install roentgen@rintaro-yamaoka
 ```
 
 ## 退役した plugin(index からは外してある・repo は残っている)
