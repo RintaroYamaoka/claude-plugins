@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Rintaro Yamaoka の Claude Code plugin marketplace。生きている plugin だけを載せる(退役した物は README の表へ)。",
-    "version": "0.9.0"
+    "version": "0.10.0"
   },
   "plugins": [
     {
@@ -16,6 +16,15 @@
       },
       "description": "project-bootstrap の後継。transcript で実際に止めていた物だけを skill 1 本(tdd)と PreToolUse hook 3 本(commit 前の test+lint / 古い checkout からの push の拒否 / 強制 push・reset --hard・protected 直 push の拒否)に縮めた。並走・lane・WO の運用は持たない。",
       "version": "0.1.0"
+    },
+    {
+      "name": "roentgen",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RintaroYamaoka/roentgen.git"
+      },
+      "description": "repo のコードを知識グラフ(関数・型・表・入口・呼び出し・読み書き)にして、リファレンス風の HTML 19 ページ・意味の diff・query・MCP・notes を出す。北極星は「コードを読まずに読んだのと近い状態」。Rust の単一バイナリ(launcher が Releases から取得、無ければ cargo でビルド)。",
+      "version": "0.2.0"
     }
   ]
 }
