@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Rintaro Yamaoka の Claude Code plugin marketplace。生きている plugin だけを載せる(退役した物は README の表へ)。",
-    "version": "0.10.0"
+    "version": "0.11.0"
   },
   "plugins": [
     {
@@ -15,7 +15,7 @@
         "url": "https://github.com/RintaroYamaoka/tdd-guards.git"
       },
       "description": "project-bootstrap の後継。transcript で実際に止めていた物だけを skill 1 本(tdd)と PreToolUse hook 3 本(commit 前の test+lint / 古い checkout からの push の拒否 / 強制 push・reset --hard・protected 直 push の拒否)に縮めた。並走・lane・WO の運用は持たない。",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     {
       "name": "roentgen",
